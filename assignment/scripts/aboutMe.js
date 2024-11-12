@@ -135,8 +135,15 @@ else if (pets > allowedPets) {
           mostPets = pets
         }
         else if (pets < friendsPets) {
-          
+          mostPets = friendsPets
         }
+        else if (pets = friendsPets) {
+          mostPets == pets
+          // assigned mostpets to pets since they are the same value
+        }
+        console.log(mostPets);
+        console.log('i have more pets than my friend and they are', mostPets);
+        
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
