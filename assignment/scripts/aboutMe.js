@@ -1,20 +1,32 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-let firstName = '';
+let firstName = 'Shucayb';
+console.log('First name is', firstName);
+
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
+let lastName = 'Jama';
+console.log('Last name is', lastName);
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
+let fullName = firstName + " " + lastName;
+console.log('Full name is', fullName);
+
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
+let luckyNumber = 7;
+console.log('My lucky number is', luckyNumber);
 
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
+let introduction = firstName + " " + luckyNumber;
+console.log(introduction);
+console.log('My name is', fullName, 'and i think', luckyNumber, 'is a winner!');
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
