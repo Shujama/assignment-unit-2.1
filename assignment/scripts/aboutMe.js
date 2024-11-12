@@ -129,6 +129,14 @@ else if (pets > allowedPets) {
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+        let mostPets;
+
+        if (pets > friendsPets) {
+          mostPets = pets
+        }
+        else if (pets < friendsPets) {
+          
+        }
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
