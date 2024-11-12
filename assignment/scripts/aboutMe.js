@@ -72,7 +72,7 @@ let allowedPets = 5
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-let result;
+/*let result;
 
 if (adventurous) {
   result = 'Adventures are great';  
@@ -82,6 +82,7 @@ else {
  result = 'How about we stay home?'; 
  console.log(result);
 }
+ */
 
 
 
@@ -194,11 +195,15 @@ else if (pets > allowedPets) {
       
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
-     // 12 - Create a variable called `result`. Create a conditional:
+     
+//     - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-
+ 
+        let result = adventurous ? 'Adventures are great!' : 'How about we stay home?';
+        console.log(result);
+        
 
 
 
