@@ -80,8 +80,9 @@ if (adventurous) {
 }
 else {
  result = 'How about we stay home?'; 
-  console.log(result);
+ console.log(result);
 }
+
 
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
@@ -193,7 +194,10 @@ else if (pets > allowedPets) {
       
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
-
+     // 12 - Create a variable called `result`. Create a conditional:
+//      if adventurous is true, set `result` to be "Adventures are great!", 
+//      if it's not true,  set `result` to be "How about we stay home?"
+//      Console log the value of `result`
 
 
 
