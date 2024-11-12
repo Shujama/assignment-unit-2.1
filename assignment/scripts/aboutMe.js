@@ -153,6 +153,44 @@ else if (pets > allowedPets) {
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
+        
+        //  Answer as conditions
+
+       /* let luckyResult;
+       if (luckyNumber ===1 ) {
+        luckyResult = 'First is the worst" if your lucky number is 1';
+       }
+       else if (luckyNumber ===2) {
+        luckyResult = 'Second is the best" if your lucky number is 2';
+       }
+       else if ( luckyNumber ===3) {
+        luckyResult = 'Third is the one with the polka dot dress" if your lucky number is 3';
+       }
+       else {
+        luckyResult = 'Luck is what happens when preparation meets opportunity';
+       }
+       console.log(luckyResult); */
+
+      //  i researched switch statements and thought that they could be rewritten as conditions and it worked. It is in console log. Will save as multiline comment. 
+      
+      // am gonna try switch statements now:
+       let luckyResult;
+       switch (luckyNumber) {
+        case 1:
+          luckyResult = 'First is the worst" if your lucky number is 1';
+          break;
+        case 2:
+          luckyResult = 'Second is the best" if your lucky number is 2';
+           break;
+        case 3: 
+          luckyResult = 'Third is the one with the polka dot dress" if your lucky number is 3';
+          break;
+        default:
+          luckyResult = 'Luck is what happens when preparation meets opportunity';
+          break;
+       }
+      console.log(luckyResult);
+      
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
