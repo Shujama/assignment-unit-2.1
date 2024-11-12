@@ -72,7 +72,7 @@ let allowedPets = 5
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-/*let result;
+ let result;
 
 if (adventurous) {
   result = 'Adventures are great';  
@@ -82,7 +82,7 @@ else {
  result = 'How about we stay home?'; 
  console.log(result);
 }
- */
+ 
 
 
 
@@ -158,7 +158,7 @@ else if (pets > allowedPets) {
         
         //  Answer as conditions
 
-       /* let luckyResult;
+       let luckyResult;
        if (luckyNumber ===1 ) {
         luckyResult = 'First is the worst" if your lucky number is 1';
        }
@@ -171,12 +171,13 @@ else if (pets > allowedPets) {
        else {
         luckyResult = 'Luck is what happens when preparation meets opportunity';
        }
-       console.log(luckyResult); */
+       console.log(luckyResult); 
 
-      //  i researched switch statements and thought that they could be rewritten as conditions and it worked. It is in console log. Will save as multiline comment. 
+      //  i researched switch statements and thought that they could be rewritten as conditions and it worked. It is in console log.
       
-      // am gonna try switch statements now:
-       let luckyResult;
+      // am gonna try switch statements now: Answer as switch statements.
+      // don't need to declare it.
+            luckyResult;
        switch (luckyNumber) {
         case 1:
           luckyResult = 'First is the worst" if your lucky number is 1';
@@ -201,9 +202,9 @@ else if (pets > allowedPets) {
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
  
-        let result = adventurous ? 'Adventures are great!' : 'How about we stay home?';
+        result = adventurous ? 'Adventures are great!' : 'How about we stay home?';
         console.log(result);
-        
+        // don't need to declare it again
 
 
 
