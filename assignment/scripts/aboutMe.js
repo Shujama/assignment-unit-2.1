@@ -3,56 +3,102 @@
 let firstName = 'Shucayb';
 console.log('First name is', firstName);
 
+
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = 'Jama';
 console.log('Last name is', lastName);
+
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
 let fullName = firstName + " " + lastName;
-console.log('Full name is', fullName);
+console.log('My Full name is', fullName);
 
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
 let luckyNumber = 7;
+console.log(luckyNumber);
 console.log('My lucky number is', luckyNumber);
+
 
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction = firstName + " " + luckyNumber;
+let introduction = 'My name is Shucayb Jama, and I think 7 is a winner!';
 console.log(introduction);
-console.log('My name is', fullName, 'and i think', luckyNumber, 'is a winner!');
+
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
+let adventurous = true;
+console.log('adventurous =', adventurous);
+
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
+let food = 'Shawarma';
+console.log(food);
+console.log('Favorite food is', food);
+
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
+let pets = 0
+console.log('Number of pets is', pets);
+console.log('I have 0 pets');
+
+
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
+let friendsPets = 0
+console.log('friendpets is', friendsPets);
+
 
 // 10 - Add two pets to your `pets` variable
+pets += 2;
+console.log(pets);
+console.log('i added 2 pets and now my pets are', pets);
+
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+let allowedPets = 5
+
 
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
+let result;
+
+if (adventurous) {
+  result = 'Adventures are great';  
+  console.log(result);
+}
+else {
+ result = 'How about we stay home?'; 
+  console.log(result);
+}
+
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+
+let diceRoll = 'Try again later.';
+
+if (luckyNumber == 2 && adventurous) {
+  diceRoll = 'Roll the dice';
+  console.log(diceRoll);
+}
+else { 
+  console.log(diceRoll);
+}
 
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
@@ -62,8 +108,15 @@ console.log('My name is', fullName, 'and i think', luckyNumber, 'is a winner!');
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
+let petStatus;
 
-
+if (pets <allowedPets) {
+  petStatus = 'I can have more pets';
+  console.log(petStatus);
+}
+else {
+  
+}
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that
