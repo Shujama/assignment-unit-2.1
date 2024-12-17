@@ -28,7 +28,7 @@ console.log('My lucky number is', luckyNumber);
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction = 'My name is Shucayb Jama, and I think 7 is a winner!';
+let introduction = `My name is ${fullName} and i think ${luckyNumber} is a winner `;
 console.log(introduction);
 
 
@@ -116,7 +116,7 @@ if (pets < allowedPets) {
   petStatus = 'I can have more pets';
   console.log(petStatus);
 }
-else if ( pets = allowedPets) {
+else if ( pets === allowedPets) {
 petStatus = 'I have enough pets';
 console.log(petStatus);
 }
@@ -139,7 +139,7 @@ else if (pets > allowedPets) {
         else if (pets < friendsPets) {
           mostPets = friendsPets
         }
-        else if (pets = friendsPets) {
+        else if (pets === friendsPets) {
           mostPets == pets
           // assigned mostpets to pets since they are the same value
         }
